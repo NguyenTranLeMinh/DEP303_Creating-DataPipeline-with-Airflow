@@ -79,7 +79,7 @@ gdd.download_file_from_google_drive(file_id='1iytA1n2z4go3uVCwE__vIKouTKyIDjEq',
  
 Đoạn code trên sẽ tải file theo id và lưu xuống đường dẫn dest_path. Để lấy được ID của file trên Google Drive, bạn sẽ cần lấy shareable link của file đó, ví dụ với link như sau:
 
-https://drive.google.com/file/d/1FflYh-YxXDvJ6NyE9GNhnMbB-M87az0Y/view?usp= sharing
+https://drive.google.com /file/d/1FflYh-YxXDvJ6NyE9GNhnMbB-M87az0Y/view?usp=sharing
 
 Với ví dụ trên, Id của file sẽ là 1FflYh-YxXDvJ6NyE9GNhnMbB-M87az0Y
 
