@@ -75,9 +75,11 @@ from google_drive_downloader import GoogleDriveDownloader as gdd
 gdd.download_file_from_google_drive(file_id='1iytA1n2z4go3uVCwE__vIKouTKyIDjEq',
                                     dest_path='./data/mnist.zip',
                                     unzip=True)
+                                  
+ 
 Đoạn code trên sẽ tải file theo id và lưu xuống đường dẫn dest_path. Để lấy được ID của file trên Google Drive, bạn sẽ cần lấy shareable link của file đó, ví dụ với link như sau:
 
-https://drive.google.com/file/d/1FflYh-YxXDvJ6NyE9GNhnMbB-M87az0Y/view?usp=sharing
+https://drive.google.com/file/d/1FflYh-YxXDvJ6NyE9GNhnMbB-M87az0Y/view?usp= sharing
 
 Với ví dụ trên, Id của file sẽ là 1FflYh-YxXDvJ6NyE9GNhnMbB-M87az0Y
 
@@ -133,6 +135,7 @@ Sau khi đã xử lý xong dữ liệu, bạn hãy lưu các kết quả vào Mo
 
 Bạn sẽ cần sắp xếp lại thứ tự của các Task theo như hình dưới đây:
 
+![image](https://user-images.githubusercontent.com/105615288/172523268-d9be18eb-987e-4e2d-997c-c7d476900b0d.png)
 
 
 Đồng thời, cũng có những Task có thể được thực thi song song với nhau để tiết kiệm thời gian hơn:
